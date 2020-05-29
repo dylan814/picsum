@@ -1,11 +1,12 @@
 import React,{useState, useContext} from "react"
 import Image from "../components/Image"
 import {getClass} from "../utils/index.js"
+import {PicContext} from "../Context"
 
 function Favourites() {
 
-
-    const ImgArr = JSON.parse(localStorage.getItem("favs"));
+  const {ImgArr} = useContext(PicContext)
+    // const ImgArr = JSON.parse(localStorage.getItem("favs"));
 
    const ImgArr2 = ImgArr.filter(x => {
 

@@ -27,7 +27,7 @@ function PicProvider(props) {
 
 
         // const {name} = e.target;
-       const newArr = JSON.parse(localStorage.getItem("favs")).map(x => {
+       const newArr = ImgArr.map(x => {
             if (id === x.id) {
               
                 return {
@@ -41,9 +41,10 @@ function PicProvider(props) {
 
 
         })
-         localStorage.setItem("favs", JSON.stringify(newArr));
+
+        //  localStorage.setItem("favs", JSON.stringify(newArr));
          ;
-        setImgArr(JSON.parse(localStorage.getItem("favs")))
+        setImgArr(newArr)
 
         console.log(ImgArr)
 
