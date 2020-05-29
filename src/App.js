@@ -18,9 +18,9 @@ function App() {
      
         
       <Switch>
-      <Route exact path="/"> <Photos /></Route>
-      <Route path ="/cart"> <Cart /></Route>
-      <Route path="/favourites"><Favourites /></Route>
+      <Route exact path="/picsum"> <Photos /></Route>
+      <Route path ="/picsum/cart"> <Cart /></Route>
+      <Route path="/picsum/favourites"><Favourites /></Route>
 
 
       </Switch>
