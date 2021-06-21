@@ -8,4 +8,4 @@ The project involved:
 • React prop types. 
 
 
-The live project can be found here: https://dylan814.github.io/picsum/cart
+The live project can be found here: https://dylan814.github.io/picsum/
